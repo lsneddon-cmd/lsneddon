@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/CSS" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <script async src="script.js"></script>
+  <title>Lewis Sneddon</title>
+</head>
+<body>
+  <header>
+    <h1>Lewis Sneddon</h1>
+    <h3>Developer</h3>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><button id="open" class="cta-btn">Get in Touch</button></li>
+      <li><a target="_blank" rel="noopener noreferrer" href="http://www.linkedin.com/in/lsneddoncodes" target="blank"><img src="In-Black-66px-R.png"></a></li>
+      <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/lsneddon-cmd" target="blank"><img src="GitHub-Mark-64px.png" alt=""></a></li>
+    </ul>
+  </nav>
+
+  <button id="toggle" class="toggle">
+    <i class="fa fa-bars fa-2x"></i>
+  </button>
+  <!--End of Navigation Menu-->
+
+  <!-- Slide Show -->
+  <div class="slide-show">
+    <div class="slide-show-header">
+      <h2>Projects</h2>
+    </div>
+    <div class="container">
+      <h3>Bake Buddy</h3>
+      <p>My first little web app I made for my wife to solve her frustration converting baking ingredients from US imperial to grams. Bake Buddy uses simple Javascript to carry out conversion calculations for common baking ingredients. Ingredients are converted from a volume(US cups) to a weight(grams).</p>
+      <a target="_blank" rel="noopener noreferrer" href="http://lewissneddonblog.mypressonline.com/BakeBuddy/index.html">Bake Buddy</a>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/lsneddon-cmd/bakeBuddy" target="blank">Code</a>
+    </div>
+  </div>
+  <!-- End of Slide Show-->
+
+  <!-- About Me -->
+  <div class="about-me">
+    <h2>About me</h2>
+    <p>As a passionate, self learned developer, I'm constantly expanding my skill set and updating my portfolio with new projects.</p>
+  </div>
+
+  <!-- End of About Me -->
+
+  <!-- Contact Form -->
+  <div class="modal-container" id="modal">
+  <div class="modal">
+    <button class="close-btn" id="close">
+      <i class="fa fa-times"></i>
+    </button>
+    <div class="modal-header">
+      <h2>Send me a message</h2>
+    </div>
+    <form action="" id="form" class="form">     
+      <div class="form-control">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your full name">
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="company">Company</label>
+        <input type="text" id="company" placeholder="Your Company name">
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" placeholder="Your phone number">
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Your email address">
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Type your message..."></textarea>
+      </div>
+      <button type="submit">Send!</button>
+    </form>
+  </div>
+</div>
+  <!--End of Contact form-->
+  
+<footer>
+
+</footer>
+
+</body>
+</html>
