@@ -40,6 +40,10 @@ header {
   margin: 5px;
 }
 
+.rotated {
+  transform: rotate(90deg);
+}
+
 /* Nav Bar */
 nav {
   border-left: 2px solid rgba(200, 200, 200, 0.1);

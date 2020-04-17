@@ -5,8 +5,8 @@
 // Nav Bar toggle
 const toggle = document.getElementById('toggle');
 
-toggle.addEventListener('click', () => 
-document.body.classList.toggle('show-nav')
+toggle.addEventListener('click', (e) => 
+document.body.classList.toggle('show-nav') + e.target.classList.toggle('rotated')
 )
 
 
