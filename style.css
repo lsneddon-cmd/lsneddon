@@ -281,6 +281,10 @@ footer {
   margin: 10px auto;
 }
 
+.foot a:hover {
+  font-weight: bold;
+}
+
 @keyframes modalopen {
   from {
     opacity: 0;
