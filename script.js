@@ -5,8 +5,9 @@
 // Nav Bar toggle
 const toggle = document.getElementById('toggle');
 
-toggle.addEventListener('click', (e) => 
-document.body.classList.toggle('show-nav') + e.target.classList.toggle('rotated') +
+toggle.addEventListener('click', () => 
+document.body.classList.toggle('show-nav') + 
+toggle.classList.toggle('rotated') +
 (document.body.scrollTop = 0) +
 (document.documentElement.scrollTop = 0)
 )
@@ -18,7 +19,9 @@ const close = document.getElementById('close');
 const open = document.getElementById('open');
 
 open.addEventListener('click', () => 
-  document.body.classList.remove('show-nav') + modal.classList.add('show-modal')
+  document.body.classList.remove('show-nav') + 
+  modal.classList.add('show-modal') +
+  toggle.classList.remove('rotated')
 );
 close.addEventListener('click', () => modal.classList.remove('show-modal'));
 window.addEventListener('click', e =>
