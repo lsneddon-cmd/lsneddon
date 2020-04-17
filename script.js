@@ -6,7 +6,9 @@
 const toggle = document.getElementById('toggle');
 
 toggle.addEventListener('click', (e) => 
-document.body.classList.toggle('show-nav') + e.target.classList.toggle('rotated')
+document.body.classList.toggle('show-nav') + e.target.classList.toggle('rotated') +
+(document.body.scrollTop = 0) +
+(document.documentElement.scrollTop = 0)
 )
 
 
