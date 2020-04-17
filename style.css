@@ -88,6 +88,25 @@ nav ul li {
   padding: 30px 40px;
 }
 
+.language-logo {
+  max-width: 40px;
+  float: right;
+}
+
+.slideshow-link-container {
+  margin: 30px 0;
+  width: 100%;
+}
+
+.slideshow-links {
+  margin: 0 30px 0 0;
+  text-decoration: none;
+  background: rgba(128, 128, 128, 0.3);
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+}
+
 .about-me {
   width: 90%;
   max-width: 600px;
@@ -133,9 +152,17 @@ footer {
   padding: 30px 40px;
 }
 
-.form h2 {
+.close-btn {
+  float: right;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin: 5px;
+}
+
+.modal-header h1 {
   text-align: center;
-  margin: 0 0 20px;
+  margin: 20px 0;
 }
 
 .form-control {
