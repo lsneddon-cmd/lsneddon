@@ -68,6 +68,9 @@ nav ul {
 nav ul li {
   padding: 20px;
 }
+nav ul li:hover {
+  transform: scale(1.1);
+}
 
 .cta-btn {
   width: 90%;
@@ -75,7 +78,13 @@ nav ul li {
   background-color: rgba(128, 128, 128, 0.3);
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
+
+.cta-btn:hover {
+  transform: scale(1.1);
+}
+
 
 /* Slide Show */
 .slide-show {
@@ -114,6 +123,10 @@ nav ul li {
   border-radius: 5px;
   padding: 10px;
   color: black;
+}
+
+.slideshow-links:hover {
+  border: 0.5px solid #b19cd9;
 }
 
 .about-me {
