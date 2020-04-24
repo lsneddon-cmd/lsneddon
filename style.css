@@ -18,6 +18,7 @@ body {
   transition: transform 0.3s ease;
 }
 
+
 body.show-nav {
   transform: translateX(-200px);
 }
@@ -90,11 +91,19 @@ nav ul li:hover {
 .slide-show {
   width: 100%;
   margin: 70px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .slide-show-header {
-  width: 400px;
-  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slide-show-header h1 {
+  
 }
 
 .container {
